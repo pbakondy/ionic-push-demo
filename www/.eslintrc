@@ -1,0 +1,12 @@
+{
+  "globals": {
+    "angular": true,
+    "device": true,
+    "console": true
+  },
+  "rules": {
+    "quotes": [1, "single"],
+    "camelcase": 0,
+    "no-console": 0
+  }
+}
