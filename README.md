@@ -31,7 +31,7 @@ Go to [apps.ionic.io](https://apps.ionic.io/) and register yourself.
 Create a new application in the admin interface.
 
 Copy the following data:
-- APP_ID (this the 'ID' on the listing page)
+- APP_ID (the 'ID' on the listing page)
 - PUBLIC_API_KEY (aka Public Key)
 - PRIVATE_API_KEY (aka Secret Key)
 
@@ -76,12 +76,12 @@ ionic add ionic-service-push
 
 Replace html and js files in www directory with files of this repository.
 
-Replace values of YOUR_APP_ID, YOUR_PUBLIC_API_KEY and YOUR_GCM_ID in www/js/app.js
+Replace values of YOUR_APP_ID, YOUR_PUBLIC_API_KEY and YOUR_GCM_ID in <code>www/js/app.js</code>.
 
-Update app to Ionic server
+Upload app to Ionic server:
 
 ```
-ionic update
+ionic upload
 ```
 
 ## Testing Android
